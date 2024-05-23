@@ -60,20 +60,22 @@ public class RecordPatterns {
 	
 	// Also used in switch statement not only if
 	
-	public void print(Object o) {
-		
-		switch(o) {
-		
-		case User(int x, String y) -> 	System.out.println("o is a record %d%d%d");
-		
-		case String s -> 	System.out.println("o is a String  %s%n");
-		
-		
-		default	-> 	System.out.println("o is a something else %s%n");
-		
-		}
-		
-	}
+	/*
+	 * public void print(Object o) {
+	 * 
+	 * switch(o) {
+	 * 
+	 * case User(int x, String y) -> System.out.println("o is a record %d%d%d");
+	 * 
+	 * case String s -> System.out.println("o is a String  %s%n");
+	 * 
+	 * 
+	 * default -> System.out.println("o is a something else %s%n");
+	 * 
+	 * }
+	 * 
+	 * }
+	 */
 	
 
 }
